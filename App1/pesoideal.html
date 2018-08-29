@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Peso Ideal</title>
+        <script language="javascript"  src="js/funciones.js"></script>
+        <script language="javascript"  src="js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/pato_32x32.png" width="30" height="30">
+            </a>
+        </nav>
+        <!-- Etiqueta h1 para encabezado-->
+        <h1 class="titulos">Cálculo del peso ideal</h1>
+        <!-- Regla horizontal-->
+        <hr>
+        <!-- Contenedor con formulario-->
+        <div id="cnt_formulario">
+            <form>
+                <div class="form-group">
+                    <label>Edad</label>
+                    <input type="text" class="form-control" id="txt_edad" placeholder="Ingrese Edad">
+                </div>
+
+                <div class="form-group">
+                    <label>Peso Actual</label>
+                    <input type="text" class="form-control" id="txt_peso_actual" placeholder="Ingrese peso actual">
+                </div>
+
+                <input type="button" class="btn btn-primary"  value="Calcular" onclick="calcularPesoIdeal();">
+            </form>
+        </div>
+        <div id="cnt_resultado"></div>
+        <div id="cnt_resultado_estado"></div>
+        <div id="cnt_resultado_imagen"></div>
+    </body>
+</html>

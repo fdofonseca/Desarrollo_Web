@@ -1,0 +1,31 @@
+/* Selector de etiqueta*/
+body {
+    background-color: #cad3dd;
+}
+/*h1 {
+    color : #CB0000;
+}
+*/
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:   20px;
+}
+/* Selector de clase*/
+.titulos {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #473c3c;
+ font-size : 24px;
+}
+/* Selector de id*/
+#boton-enviar {
+    color:#ffffff;
+    background-color: green;
+}
+#cnt_resultado {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: 1px;
+    border-style: solid;
+    padding: 15px;
+}

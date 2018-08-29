@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>App1 INACAP</title>
+        <script>
+        function alerta(){
+            alert("Esto es una prueba de javascript...");
+        }
+        function calcularCuadrado(){
+            var numero = document.getElementById("txt_numero").value;
+            var cuadrado = numero * numero ;
+            alert(cuadrado);
+        }
+        </script>
+    </head>
+    <body>
+        <!-- Imágen de encabezado -->
+        <img src="img/inacap.png">
+        <hr>
+        <label>Hola Mundo</label>
+        <input type="text" id="txt_numero" placeholder="Ingrese número">
+        <input type="button" value="Test Javascript" onclick="calcularCuadrado();" >
+    </body>
+</html>
